@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    margin: 0 10%;
+}
+section{
+    height: 100vh;
+}
+h1{
+    font-size: 80px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 24px;
+}
+img{
+    width: 100%;
+}
+button{
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* navigation bar style */
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+nav ul li{
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+/* end navigation bar style */
+
+/* intro section */
+#intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.half-div{
+    width: 45%;
+}
+#intro h1{
+    text-transform: uppercase;
+}
+/* end intro section */
+
+/* about section */
+#about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* end about section */
+
+/* skill section */
+#skill{
+    position: relative;
+}
+.positioning{
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+#skill h2{
+    text-align: center;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.progress{
+    width: 100%;
+    background-color: blue;
+    border-radius: 10px;
+}
+.bar{
+    background-color: coral;
+    padding: 1%;
+    border-radius: 10px;
+}
+.html{
+    width: 87%;
+}
+.css{
+    width: 80%;
+}
+.bootstrap{
+    width: 90%;
+}
+.js{
+    width: 60%;
+}
+.react{
+    width: 63%;
+}
+.material-ui{
+    width: 20%;
+}
+.node{
+    width: 80%;
+}
+.mongo{
+    width: 45%;
+}
+.cpp{
+    width: 70%;
+}
+.ds-algo{
+    width: 25%;
+}
+/* end skill section */
+
+/* portfolio section */
+#portfolio{
+    position: relative;
+}
+#portfolio h2{
+    text-align: center;
+}
+.one-third-div{
+    width: 30%;
+}
+/* end portfolio section */
+
+/* work section */
+#work{
+    background-image: url('./images/work background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+/* end work section */
+
+/* contact section */
+#contact{
+    position: relative;
+    text-align: center;
+}
+#contact img{
+    height: 50px;
+    width: 50px;
+}
+/* end contact section */
+
+/* footer style */
+footer{
+    height: 50px;
+    text-align: center;
+}
+/* end footer style */
